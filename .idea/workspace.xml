@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1663cddc-5e4a-4e1c-8f2c-61d95a944f16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/getready-app/src/app/french-paginator-intl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getready-app/src/app/services/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getready-app/src/material.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="1663cddc-5e4a-4e1c-8f2c-61d95a944f16" name="Changes" comment="Ajout app">
+      <change beforePath="$PROJECT_DIR$/getready-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/getready-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +44,16 @@
       <workItem from="1656659686228" duration="2246000" />
       <workItem from="1658092150370" duration="1786000" />
       <workItem from="1658142960118" duration="607000" />
-      <workItem from="1658423546627" duration="17261000" />
+      <workItem from="1658423546627" duration="17531000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout app">
+      <created>1658451096645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658451096645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +70,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout app" />
   </component>
 </project>
