@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@300&display=swap');
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app-content {
+  min-width: 100%;
+  min-height: 100%;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-toolbar {
+  padding: 0 1em 0 1em;
+  background-color: #505f34;
+}
+
+mat-sidenav-container {
+  height: fit-content;
+}
+
+h1 {
+  padding-left: 1em;
+  font-size: 0.9em;
+}
+
+nav {
+ margin: auto 0 0 auto;
+}
+
+#tabs ::ng-deep .mat-tab-header-pagination {
+  display: none !important;
+}
+
+.mat-tab-nav-bar, .mat-tab-header {
+  border-bottom: none;
+}
+
+.container {
+  margin: 0 auto;
+  height: fit-content;
+}
+
+.title {
+  text-decoration: none;
+  color: #f9f9f8;
+  font-size: 32px;
+  font-family: 'Black Ops One', cursive;
+}
+
+.footer-text {
+  margin-right: 1em;
+  font-size: 0.8em;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.8em;
+}
+
+.footer {
+  margin-top: 1em;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+.footer mat-toolbar {
+  background-color: #c5a881;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1279.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959.98px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 599.98px) {
+  .container {
+  max-width: 540px;
+  }
+}

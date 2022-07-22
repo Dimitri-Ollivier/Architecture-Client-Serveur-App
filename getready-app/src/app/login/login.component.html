@@ -1,0 +1,34 @@
+<div class="wrapper">
+  <div class="main">
+
+    <div class="login">
+      <form class="form-cont">
+        <h1>Connexion</h1>
+        <input type="text" placeholder="Email" id="email_log">
+        <input type="password" placeholder="Mot de passe" id="password_log">
+
+        <button class="button-login" mat-flat-button (click)="login()">
+          <mat-icon>login</mat-icon>&nbsp;&nbsp;
+          Sign in
+        </button>
+      </form>
+    </div> <!--end of login div-->
+
+    <div class="register">
+      <form action="" class="form-cont" #userForm="ngForm">
+        <h1>Créez un compte</h1>
+
+        <input type="text" placeholder="Nom" name="nom">
+        <input type="text" placeholder="Prenom" id="prenom">
+        <input type="email" placeholder="Email" id="email_reg">
+        <input type="password" placeholder="Mot de passe" id="password_reg">
+
+        <button class="button-login" mat-flat-button (click)="register()">
+          <mat-icon>login</mat-icon>&nbsp;&nbsp;
+          Sign up
+        </button>
+      </form>
+    </div><!--end of register div-->
+  </div>
+
+</div>

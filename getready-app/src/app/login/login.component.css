@@ -1,0 +1,124 @@
+body{
+  margin:0;
+  padding: 0;
+  /* overflow: hidden; */
+  font-family: 'Raleway', sans-serif;
+}
+
+form > *{
+  display: block;
+  margin:15px auto;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+  width: fit-content;
+  outline: 0;
+  border: 0px solid;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  transition: .25s;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+  width:200px;
+}
+
+input[type="submit"]{
+  width: fit-content;
+  outline: 0;
+  border: 0px solid;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  transition: .25s;
+  cursor:pointer;
+}
+input[type="submit"]:hover{
+  background-color: white;
+  box-shadow: 3px 5px 5px 0 #7E583B, 0 5px 5px 0 #7E583B;
+  cursor: pointer;}
+input[type="submit"]:active {
+  transition-duration: 0.15s;
+  box-shadow: 0.5px 2px 0px 0 #7E5A3E;
+  transform: translateY(2px);
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapper > * {
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-flow: row wrap;
+  width:100vw;
+  min-height: 100vh;
+  /* background:#34495e; */
+}
+.login{
+  float: left;
+  width:50%;
+  min-height: 100vh;
+  background: url("https://www.thedefensepost.com/wp-content/uploads/2019/11/france-soldiers-sahel-operation-barkhane.jpg")  no-repeat ;
+  background-size: cover;
+}
+.register{
+  float:right;
+  width:50%;
+  min-height: 100vh;
+  background:  url("https://beymedias.brightspotcdn.com/dims4/default/289e40b/2147483647/strip/true/crop/3500x1701+0+60/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F5a%2F2e%2Fe203b7d4e7ea72cff4181ef35c23%2Fmali-pays-reuters.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.login, .register{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login form, .register form{
+  background-color: #936949;
+  width:350px;
+  padding: 20px;
+  min-height: 250px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  transition: .26s;
+}
+.login form:hover, .register form:hover{
+  background-color: #B17F59A3;
+
+}
+h1{
+  color: #f9f9f8;
+  font-family: 'Black Ops One', cursive;
+}
+
+.button-login {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+@media all and (max-width:800px){
+  .wrapper{
+    flex-flow:column ;
+  }
+  .main{
+    flex-flow: column;
+  }
+  .login, .register{
+    width: 100%;
+  }
+}

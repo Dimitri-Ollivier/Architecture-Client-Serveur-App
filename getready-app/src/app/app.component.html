@@ -1,0 +1,45 @@
+<div class="app-content" *ngIf="router.url !== '/login'">
+        <mat-sidenav-container>
+          <mat-sidenav #sidenav>
+            <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+              <mat-icon>shopping_cart</mat-icon>
+            </button>
+          </mat-sidenav>
+          <mat-sidenav-content>
+            <mat-toolbar class="mat-elevation-z8">
+              <button fxShow.sm fxShow="false" mat-icon-button class="menu" aria-label="Menu" (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+              </button>
+
+              <button mat-icon-button class="menu" aria-label="Menu" (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+              </button>
+              <span class="example-spacer"></span>
+              <a class="title" [title]="'Accueil'" [routerLink]="['']">Get Ready</a>
+              <span class="example-spacer"></span>
+              <button mat-icon-button class="favorite-icon" aria-label="Panier" (click)="getShoppingCart()">
+                <mat-icon>shopping_cart</mat-icon>
+              </button>
+              <button mat-icon-button class="favorite-icon" aria-label="Compte" (click)="goToUser()">
+                <mat-icon>person</mat-icon>
+              </button>
+            </mat-toolbar>
+            <div class="container">
+              <router-outlet></router-outlet>
+            </div>
+
+            <div class="footer">
+              <mat-toolbar class="mat-elevation-z8">
+                <span class="footer-text">@ 2022 Getready, Inc.</span>
+                <a class="footer-link" [title]="'Mentions légales'" [routerLink]="['/mentions']">. Mentions légales .</a>
+                &nbsp;
+                <a class="footer-link" [title]="'Politique de confidentialité'" [routerLink]="['/politique']">Politique de confidentialité .</a>
+              </mat-toolbar>
+            </div>
+          </mat-sidenav-content>
+        </mat-sidenav-container>
+</div>
+
+<div *ngIf="router.url === '/login'">
+  <router-outlet></router-outlet>
+</div>
