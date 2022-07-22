@@ -23,27 +23,6 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
   width:200px;
 }
 
-input[type="submit"]{
-  width: fit-content;
-  outline: 0;
-  border: 0px solid;
-  border-radius: 4px;
-  text-align: center;
-  padding: 10px;
-  color:black;
-  transition: .25s;
-  cursor:pointer;
-}
-input[type="submit"]:hover{
-  background-color: white;
-  box-shadow: 3px 5px 5px 0 #7E583B, 0 5px 5px 0 #7E583B;
-  cursor: pointer;}
-input[type="submit"]:active {
-  transition-duration: 0.15s;
-  box-shadow: 0.5px 2px 0px 0 #7E5A3E;
-  transform: translateY(2px);
-}
-
 .wrapper{
   display: flex;
   flex-flow: row wrap;

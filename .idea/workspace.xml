@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1663cddc-5e4a-4e1c-8f2c-61d95a944f16" name="Changes" comment="Ajout app">
+    <list default="true" id="1663cddc-5e4a-4e1c-8f2c-61d95a944f16" name="Changes" comment="test vercel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getready-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/getready-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getready-app/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/getready-app/src/app/login/login.component.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
       <workItem from="1656659686228" duration="2246000" />
       <workItem from="1658092150370" duration="1786000" />
       <workItem from="1658142960118" duration="607000" />
-      <workItem from="1658423546627" duration="17531000" />
+      <workItem from="1658423546627" duration="17955000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout app">
       <created>1658451096645</created>
@@ -53,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658451096645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test vercel">
+      <created>1658451347714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658451347714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout app" />
+    <MESSAGE value="test vercel" />
+    <option name="LAST_COMMIT_MESSAGE" value="test vercel" />
   </component>
 </project>
