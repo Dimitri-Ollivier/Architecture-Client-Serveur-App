@@ -18,6 +18,7 @@ import { AccessoryComponent } from './accessory/accessory.component';
 import { WeaponCreatorComponent } from './weapon-creator/weapon-creator.component';
 import { AccessoryCreatorComponent } from './accessory-creator/accessory-creator.component';
 import { UserService } from "./services/user";
+import  { WeaponService } from "./services/weapon";
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { UserService } from "./services/user";
     MaterialModule,
     LayoutModule
   ],
-  providers: [UserService],
+  providers: [UserService, WeaponService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

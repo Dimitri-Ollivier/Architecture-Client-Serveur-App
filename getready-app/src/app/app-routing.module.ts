@@ -10,7 +10,7 @@ import { AccessoryComponent } from "./accessory/accessory.component";
 import { AccessoryCreatorComponent } from "./accessory-creator/accessory-creator.component";
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'shopping-cart/:id', component: ShoppingCartComponent },
   { path: 'weapon/:id', component:  WeaponComponent},
